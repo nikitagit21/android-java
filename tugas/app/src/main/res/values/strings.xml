@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wisata pekalongan</string>
+    <string name="wisata_nama">Nama Wisata</string>
+    <string name="detail_wisata">Detail</string>
+    <string name="btn_detail">Detail</string>
+    <string name="btn_favorit">Favorit</string>
+    <string name="bio">bio</string>
+    <string name="nama">Eka febriyanti</string>
+    <string name="email">ekafebriyanti893@gmail.com</string>
+</resources>

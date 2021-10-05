@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyViewHolder</string>
+    <string name="description">Deskripsi</string>
+    <string name="temperature">Temperatur</string>
+    <string name="name">Nama kota</string>
+    <string name="insert_city">Masukan id kota misal Semarang = 152567</string>
+    <string name="search">Cari</string>
+    <string name="id_pwt_wnb_smg">155765,165756,1756556</string>
+</resources>

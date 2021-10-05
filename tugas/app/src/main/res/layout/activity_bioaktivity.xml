@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tema"
+    android:layout_height="match_parent"
+    tools:context=".bioaktivity">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:src="@drawable/profil"
+                android:id="@+id/profil"
+                android:layout_gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:gravity="center_horizontal"
+            android:text="@string/nama"
+            android:textAlignment="gravity"
+            android:padding="5dp"
+            android:textColor="@color/cyan_500"
+            android:textSize="25sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/email"
+            android:textColor="@color/cyan_500"
+            android:textSize="22sp"
+            android:fontFamily="cursive"
+            />
+
+ </LinearLayout>

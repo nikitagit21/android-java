@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="15dp"
+    cardview:cardElevation="10dp"
+    android:layout_marginBottom="5dp"
+    cardview:cardCornerRadius="20dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:padding="8dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/img_item_foto"
+            tools:src="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_item_name"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@+id/img_item_foto"
+            android:layout_toRightOf="@id/img_item_foto"
+            android:textSize="17sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            tools:text="@string/wisata_nama"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_item_detail"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toEndOf="@+id/img_item_foto"
+            android:layout_toRightOf="@id/img_item_foto"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textSize="15dp"
+            android:layout_below="@+id/tv_item_name"
+            tools:text="@string/detail_wisata"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
